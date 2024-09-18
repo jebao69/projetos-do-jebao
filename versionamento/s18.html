@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" >
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteudo-artigo"style="background-color: #edeae3;">
+      <h2>Criptografia</h2>
+      <p>A criptografia é um conjunto de técnicas e práticas que visa proteger informações, garantindo sua confidencialidade, integridade e autenticidade. Ela desempenha um papel crucial na segurança de dados, especialmente em contextos como comunicação digital, armazenamento de informações sensíveis e transações online.</p>
+      <p>Existem dois principais tipos de criptografia: <strong>simétrica e assimétrica</strong>. Na criptografia simétrica, a mesma chave é utilizada tanto para cifrar quanto para decifrar os dados, exigindo que a chave seja mantida em segredo entre as partes envolvidas. Já na criptografia assimétrica, utiliza-se um par de chaves: uma pública, que pode ser compartilhada, e uma privada, que deve ser mantida em segredo. Esse método é amplamente utilizado em protocolos de segurança, como SSL/TLS, para proteger a comunicação na internet.</p>
+      <p>A criptografia também é fundamental para garantir a integridade dos dados, permitindo verificar se as informações foram alteradas durante a transmissão. Além disso, técnicas como hash e assinaturas digitais são usadas para autenticar a origem dos dados.</p>
+      <p>Em um mundo cada vez mais digital, a criptografia se tornou uma ferramenta essencial para proteger a privacidade e a segurança das informações pessoais e corporativas. No entanto, seu uso também levanta questões éticas e legais, especialmente em relação à vigilância, à proteção de dados e à necessidade de acesso por parte das autoridades.</p>
+      <p></p>
+      <h2>1. O protocolo TCP/IP</h2>
+      <p>O protocolo TCP/IP (Transmission Control Protocol/Internet Protocol) é um conjunto de normas que governam a comunicação na internet. Ele permite a transmissão de dados entre dispositivos de forma confiável e eficiente. O TCP é responsável pela segmentação dos dados, garantindo que eles cheguem na ordem correta e sem erros, através de mecanismos de controle de fluxo e retransmissão. Já o IP trata da endereçamento e roteamento dos pacotes, assegurando que os dados sejam enviados para o destino correto.</p>
+      <p>A pilha de protocolos TCP/IP é composta por várias camadas, incluindo a camada de aplicação, que abrange protocolos como HTTP, FTP e SMTP; a camada de transporte, onde o TCP opera; e a camada de rede, onde o IP atua. Essa arquitetura modular permite que diferentes tipos de redes e tecnologias se comuniquem entre si, tornando o TCP/IP fundamental para a conectividade global.
+
+        Sua robustez e flexibilidade contribuíram para o crescimento exponencial da internet, tornando-o um padrão essencial na comunicação de dados moderna.</p>
+
+      <h2>2. Message Queuing (Filas de Mensagens)</h2>
+      <p>Message Queuing (filas de mensagens) é um padrão de comunicação entre sistemas que permite que mensagens sejam enviadas e recebidas de forma assíncrona. Nesse modelo, as mensagens são colocadas em uma fila por um produtor e posteriormente consumidas por um ou mais consumidores. Essa abordagem desacopla os sistemas, permitindo que eles operem independentemente um do outro, melhorando a escalabilidade e a robustez.
+
+      <p>
+      As filas de mensagens garantem que as mensagens sejam entregues mesmo que o consumidor não esteja disponível no momento do envio. Além disso, elas podem oferecer funcionalidades como garantias de entrega, ordenação de mensagens e gerenciamento de falhas. Sistemas populares de filas de mensagens incluem RabbitMQ, Apache Kafka e AWS SQS. Essas ferramentas são amplamente utilizadas em arquiteturas de microserviços, permitindo comunicação eficiente entre serviços e facilitando a implementação de processos complexos e distribuídos.</p>
+
+      <h2>3.RabbitMQ e Apache Kafka</h2>
+      <p><strong>RabbitMQ</strong> e Apache Kafka são duas populares soluções de mensagens, mas atendem a necessidades diferentes.
+
+      
+      <p><strong>RabbitMQ</strong> é um broker de mensagens que usa um modelo baseado em filas, ideal para comunicação entre aplicativos. Ele oferece recursos como roteamento avançado, suporte a várias linguagens e protocolos, e garante a entrega das mensagens, mesmo em caso de falhas. É frequentemente usado em arquiteturas de microserviços, onde a troca de mensagens entre serviços é essencial.</p>
+       
+
+
+        
+      <p><strong>Apache Kafka</strong>, por outro lado, é uma plataforma de streaming distribuída, projetada para processar grandes volumes de dados em tempo real. Ele armazena mensagens em logs, permitindo que múltiplos consumidores leiam dados simultaneamente e em alta taxa. Kafka é ideal para cenários que exigem processamento de eventos em tempo real, como monitoramento e análise de dados.
+      </p>
+       <P>Ambas as tecnologias têm suas aplicações específicas e podem ser escolhidas com base nas necessidades de desempenho, escalabilidade e complexidade do sistema.</P> 
+        
+        
+        </p>
+
+      <h2>4.Throughput</h2>
+      
+      <p>Throughput, em termos de redes e sistemas de computação, refere-se à quantidade de dados que pode ser processada ou transmitida em um determinado período de tempo. É uma medida crítica de desempenho, frequentemente expressa em unidades como bits por segundo (bps), bytes por segundo ou pacotes por segundo.
+
+        <p>No contexto de filas de mensagens, como RabbitMQ ou Apache Kafka, o throughput indica quantas mensagens podem ser enviadas ou recebidas em um intervalo específico. Um throughput mais alto significa que o sistema pode lidar com um volume maior de mensagens simultaneamente, o que é crucial para aplicações que exigem alta disponibilidade e desempenho em tempo real.</p>
+        <P>O throughput pode ser afetado por diversos fatores, como a capacidade da rede, a eficiência do código, a configuração do sistema e a carga de trabalho. Medir e otimizar o throughput é essencial para garantir que os sistemas atendam às demandas dos usuários e operem de maneira eficiente.</P>
+        
+        
+        
+        
+        
+        
+      </div>
+      
+<a href="../index.html">voltar para a página inicial</a>
+
+
+
+</body>
+</html>

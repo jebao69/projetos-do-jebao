@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" >
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteudo-artigo" style="background-color: #edeae3;">
+        
+      <h2>Protocolos de comunicação em rede</h2>
+      <p>Os protocolos de comunicação em rede são conjuntos de regras e convenções que permitem a troca de dados entre dispositivos em uma rede. Eles garantem que a comunicação seja realizada de forma eficiente e confiável. Existem diferentes camadas de protocolos, cada uma com funções específicas.</p>
+      <p>Um dos protocolos mais conhecidos é o <strong>TCP/IP</strong>, que é a base da internet. O TCP (Transmission Control Protocol) assegura a entrega de pacotes de dados, enquanto o <strong>IP</strong> (Internet Protocol) trata do endereçamento e roteamento. Outros protocolos importantes incluem o HTTP (Hypertext Transfer Protocol), usado para transferência de páginas web; o FTP (File Transfer Protocol), que facilita a troca de arquivos; e o SMTP (Simple Mail Transfer Protocol), utilizado para envio de e-mails.</p>
+      <p>Na camada de enlace, protocolos como o <strong>Ethernet</strong> definem como os dados são formatados e transmitidos na rede local. Além disso, o <strong>DNS </strong>(Domain Name System) é crucial para a tradução de nomes de domínio em endereços IP, facilitando o acesso a serviços online. Esses protocolos trabalham juntos para garantir a interoperabilidade entre diferentes dispositivos e redes, formando a espinha dorsal da comunicação moderna.</p>
+      <p></p>
+
+      <h2>1.Http</h2>
+      <p>O <strong>HTTP</strong> (Hypertext Transfer Protocol) é um protocolo de comunicação fundamental utilizado na transferência de dados na web. Ele permite que navegadores e servidores troquem informações, como páginas HTML, imagens e vídeos. O HTTP opera no modelo cliente-servidor, onde o cliente (geralmente um navegador) faz uma solicitação ao servidor, que, por sua vez, responde com os dados solicitados.</p>
+      <p>Uma das características do HTTP é que ele é um protocolo sem estado, o que significa que cada solicitação é tratada de forma independente, sem manter informações sobre interações anteriores. Para melhorar a segurança, foi introduzido o HTTPS (HTTP Secure), que utiliza criptografia TLS/SSL para proteger os dados durante a transmissão, garantindo a confidencialidade e a integridade das informações.</p>
+      <p>O <strong>HTTP</strong> também permite diferentes métodos de solicitação, como GET (para obter dados), POST (para enviar dados), PUT e DELETE, cada um com sua finalidade específica. Esses métodos ajudam a estruturar como as interações entre o cliente e o servidor ocorrem.</p>
+
+      <h2>2.Ftp</h2>
+      <p>O <strong>FTP (File Transfer Protocol) </strong>é um protocolo de rede usado para transferir arquivos entre um cliente e um servidor através de uma conexão de rede. Ele permite que usuários enviem ou recebam arquivos, tornando-o uma ferramenta essencial para a troca de dados em ambientes de desenvolvimento, hospedagem de sites e backup.</p>
+      <p>O FTP opera no modelo cliente-servidor, onde o cliente se conecta ao servidor FTP usando um endereço IP ou nome de domínio e fornece credenciais de login, como nome de usuário e senha. Existem dois modos de operação: ativo e passivo. No modo ativo, o cliente estabelece a conexão de dados, enquanto no modo passivo, o servidor a estabelece, facilitando a comunicação em redes onde firewalls podem bloquear conexões.</p>
+      <p>Embora o FTP seja amplamente utilizado, ele não oferece criptografia por padrão, o que pode expor dados sensíveis durante a transferência. Para melhorar a segurança, foram desenvolvidos protocolos como FTPS (FTP Secure) e SFTP (SSH File Transfer Protocol), que oferecem transmissão de dados criptografada.</p>
+
+      <h2>3.SMTP</h2>
+      <p>O <strong>SMTP </strong>(Simple Mail Transfer Protocol) é um protocolo de comunicação utilizado para o envio de e-mails pela internet. Ele define as regras e procedimentos para a transferência de mensagens entre servidores de e-mail, permitindo que um cliente de e-mail (como Outlook ou Gmail) envie mensagens para um servidor e, em seguida, para o destinatário final.</p>
+      <p>O funcionamento do SMTP é baseado no modelo cliente-servidor. Quando um usuário envia um e-mail, o cliente se conecta ao servidor SMTP, que então roteia a mensagem para o servidor do destinatário. O SMTP é otimizado para a entrega de mensagens e funciona principalmente no envio, enquanto outros protocolos, como POP3 (Post Office Protocol) e IMAP (Internet Message Access Protocol), são utilizados para receber e gerenciar e-mails.</p>
+      <p>O SMTP opera na porta 25 por padrão, mas também pode utilizar portas alternativas como 587 e 465 para conexões seguras. Embora o protocolo original não ofereça criptografia, é comum usar SSL/TLS para proteger a transmissão, garantindo que as mensagens sejam enviadas de forma segura.</p>
+
+      <h2>4.Modelo TCP/IP</h2>
+      <p>O modelo <strong>TCP/IP</strong> (Transmission Control Protocol/Internet Protocol) é uma arquitetura de rede que serve como a base para a comunicação na internet. Ele é dividido em quatro camadas principais, cada uma com funções específicas:</p>
+      <p><strong>Camada de Aplicação:</strong> Esta camada é responsável pela interface entre os aplicativos e a rede. Protocolos como HTTP, FTP e SMTP operam aqui, permitindo que os usuários interajam com serviços de rede.</p>
+      <p><strong>Camada de Internet:</strong> O IP atua nesta camada, gerenciando o endereçamento e o roteamento de pacotes de dados entre redes. Ele determina como os dados são encaminhados de um ponto a outro, utilizando endereços IP para identificar dispositivos.</p>
+      <P><strong>Camada de Acesso à Rede:</strong> Esta camada lida com a comunicação física e a transferência de dados entre dispositivos na mesma rede. Protocolos como Ethernet e Wi-Fi operam aqui, definindo como os dados são transmitidos através de diferentes mídias.</P>
+      
+      
+<a href="../index.html">voltar para a página inicial</a>
+
+
+</div>
+</body>
+</html>
